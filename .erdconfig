@@ -1,0 +1,20 @@
+attributes:
+  - content
+  - foreign_key
+  - inheritance
+disconnected: true
+filename: erd
+filetype: pdf
+indirect: false
+inheritance: true
+markup: true
+notation: simple
+polymorphism: false
+sort: true
+warn: false
+exclude: null
+only: null
+only_recursion_depth: null
+prepend_primary: false
+cluster: false
+splines: spline
