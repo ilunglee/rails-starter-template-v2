@@ -39,7 +39,8 @@ gem 'devise'
 # Use Stripe for payment
 gem 'stripe'
 # Use CB ActiveAdmin for default backend
-gem 'wrap_activeadmin', git: 'https://github.com/CMDBrew/wrap-activeadmin.git', tag: '1.2.0'
+# gem 'wrap_activeadmin', git: 'https://github.com/CMDBrew/wrap-activeadmin.git', tag: '1.2.0'
+gem 'activeadmin'
 # Use CanCan
 gem 'cancancan', '~> 2.0'
 # Use fontawesome for default icons
@@ -48,7 +49,7 @@ gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0.1'
 # Use Bootstrap as the CSS framework
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '>= 4.1.2'
 gem 'data-confirm-modal'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
