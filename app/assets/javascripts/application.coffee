@@ -16,9 +16,6 @@
 #= require popper
 #= require bootstrap
 #= require turbolinks
-#= require holder
-#= require typekit
-#= require responsive-images
 #= require_tree ./utilities
 #= require_self
 

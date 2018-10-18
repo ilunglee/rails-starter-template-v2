@@ -39,7 +39,6 @@ gem 'devise'
 # Use Stripe for payment
 gem 'stripe'
 # Use CB ActiveAdmin for default backend
-# gem 'wrap_activeadmin', git: 'https://github.com/CMDBrew/wrap-activeadmin.git', tag: '1.2.0'
 gem 'activeadmin'
 # Use CanCan
 gem 'cancancan', '~> 2.0'
@@ -82,11 +81,11 @@ gem 'friendly_id', '~> 5.1.0'
 # Browser detection
 gem 'browser'
 # Adobe Typekit
-gem 'typekit-rails'
+# gem 'typekit-rails'
 # Use ActAsList for sorting records
 gem 'acts_as_list'
 # Use Responsive Images
-gem 'responsive_images'
+# gem 'responsive_images'
 
 # Mailchimp Mailer
 # gem 'gibbon'
