@@ -11,7 +11,7 @@ end
 gem 'dotenv-rails', groups: %i[development test], require: 'dotenv/rails-now'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.1'
+gem 'rails', '~> 5.2.2'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
@@ -33,15 +33,15 @@ gem 'responders'
 # Use WillPaginate for pagination
 gem 'will_paginate-bootstrap'
 # Use breadcrumbs_on_rails for managing breadcrumbs
-gem 'breadcrumbs_on_rails'
+# gem 'breadcrumbs_on_rails'
 # Use Devise for authentication
 gem 'devise'
 # Use Stripe for payment
 gem 'stripe'
 # Use CB ActiveAdmin for default backend
-gem 'activeadmin'
+gem 'activeadmin', '~> 1.4.3'
 # Use CanCan
-gem 'cancancan', '~> 2.0'
+# gem 'cancancan', '~> 2.0'
 # Use fontawesome for default icons
 gem 'font-awesome-rails'
 # Use jquery as the JavaScript library
@@ -49,7 +49,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0.1'
 # Use Bootstrap as the CSS framework
 gem 'bootstrap', '>= 4.1.2'
-gem 'data-confirm-modal'
+# gem 'data-confirm-modal'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -57,11 +57,11 @@ gem 'jbuilder', '~> 2.5'
 # Draper as decorator - Using 3.0.0.pre1 for Rails 5 compatibility issue
 gem 'draper', '3.0.1'
 # Use Google Analytics
-gem 'google-analytics-rails', '1.1.0'
+# gem 'google-analytics-rails', '1.1.0'
 # Generate Sitemap
-gem 'sitemap'
+# gem 'sitemap'
 # Use Rest-Client for 3rd Party API
-gem 'rest-client'
+# gem 'rest-client'
 
 # Uploader
 gem 'carrierwave', '~> 1.0'
