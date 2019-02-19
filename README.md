@@ -1,8 +1,5 @@
 # README
 
-### Setup
-* Setup Github SSH - [Doc](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
 ### Installation
 * Clone this repo
 * `$ rm -rf .git`
@@ -12,7 +9,6 @@
 * Create an .env file for all development environment variables.
 * `$ rails db:create`
 * `$ rails g active_admin:install`
-* `$ rails g wrap_activeadmin:install`
 * `$ rails db:migrate`
 * `$ rails db:seed`
 * `$ git add -A`
@@ -26,4 +22,3 @@
 
 ### Backend Admin Panel
 * [ActiveAdmin](https://activeadmin.info/) - ActiveAdmin Documentation
-* [WrapActiveadmin](https://github.com/CMDBrew/wrap-activeadmin) - CMDBrew Studio: WrapActiveadmin

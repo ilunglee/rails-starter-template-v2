@@ -104,11 +104,6 @@ gem 'activerecord-typedstore'
 # Speed up rails
 gem 'bootsnap', require: 'bootsnap/setup'
 
-# Rails 5 missing gem support
-# gem 'activemodel-serializers-xml', git: 'https://github.com/rails/activemodel-serializers-xml'
-
-# Rails 5 missing gem support
-# gem 'activemodel-serializers-xml', git: 'https://github.com/rails/activemodel-serializers-xml'
 group :production do
   # Heroku Scout for memeory
   gem 'scout_apm'
