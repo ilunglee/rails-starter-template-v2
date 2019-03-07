@@ -48,7 +48,7 @@ gem 'font-awesome-rails'
 gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 6.0.1'
 # Use Bootstrap as the CSS framework
-gem 'bootstrap', '>= 4.1.2'
+gem 'bootstrap', '>= 4.3.1'
 # gem 'data-confirm-modal'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
@@ -103,6 +103,8 @@ gem 'faker'
 gem 'activerecord-typedstore'
 # Speed up rails
 gem 'bootsnap', require: 'bootsnap/setup'
+# Use FactoryBot to generate fake data
+gem 'factory_bot_rails'
 
 group :production do
   # Heroku Scout for memeory
@@ -128,8 +130,6 @@ group :test do
   # Use RSpec as Testing Framework
   gem 'rails-controller-testing'
   gem 'rspec-rails', '~> 3.6'
-  # Use FactoryBot to generate fake data
-  gem 'factory_bot_rails'
   # Browser testing
   gem 'capybara'
   # gem 'capybara-webkit', '~> 1.14.0'
