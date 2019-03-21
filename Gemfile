@@ -35,7 +35,7 @@ gem 'will_paginate-bootstrap'
 # Use breadcrumbs_on_rails for managing breadcrumbs
 # gem 'breadcrumbs_on_rails'
 # Use Devise for authentication
-gem 'devise'
+gem "devise", '>= 4.6.0'
 # Use Stripe for payment
 gem 'stripe'
 # Use CB ActiveAdmin for default backend
