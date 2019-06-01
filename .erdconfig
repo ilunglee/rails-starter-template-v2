@@ -5,16 +5,23 @@ attributes:
 disconnected: true
 filename: erd
 filetype: pdf
+title: 'ERD'
 indirect: false
 inheritance: true
+orientation: vertical
 markup: true
 notation: simple
 polymorphism: false
 sort: true
-warn: false
-exclude: null
+warn: true
+exclude:
+  - ActiveRecord::InternalMetadata
+  - ActiveRecord::SchemaMigration
+  - FriendlyId::Slug
+  - ActiveStorage::Attachment
+  - ActiveStorage::Blob
 only: null
 only_recursion_depth: null
-prepend_primary: false
+prepend_primary: true
 cluster: false
 splines: spline
