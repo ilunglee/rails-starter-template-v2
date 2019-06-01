@@ -31,7 +31,7 @@ gem 'select2-rails'
 # Use Repsonders for responses to different formats
 gem 'responders'
 # Use WillPaginate for pagination
-gem 'will_paginate-bootstrap'
+gem 'will_paginate-bootstrap4'
 # Use breadcrumbs_on_rails for managing breadcrumbs
 # gem 'breadcrumbs_on_rails'
 # Use Devise for authentication
@@ -42,6 +42,11 @@ gem 'stripe'
 gem 'activeadmin', '~> 1.4.3'
 # Use CanCan
 # gem 'cancancan', '~> 2.0'
+
+# Use Trix for richtext editor
+gem 'trix-rails', require: 'trix'
+# Chart Library
+# gem 'chart-js-rails', '~> 0.1.3'
 # Use fontawesome for default icons
 gem 'font-awesome-rails'
 # Use jquery as the JavaScript library
@@ -50,6 +55,8 @@ gem 'jquery-ui-rails', '~> 6.0.1'
 # Use Bootstrap as the CSS framework
 gem 'bootstrap', '>= 4.3.1'
 # gem 'data-confirm-modal'
+# Use inline SVG for icons
+gem 'inline_svg'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -63,21 +70,15 @@ gem 'draper', '3.0.1'
 # Use Rest-Client for 3rd Party API
 # gem 'rest-client'
 
-# Uploader
-gem 'carrierwave', '~> 1.0'
-gem 'carrierwave-mimetype-fu'
-gem 'fog'
-gem 'rmagick'
-
 # Delayed Job
 gem 'delayed_job_active_record'
 
 # Tagging
-gem 'acts-as-taggable-on', '~> 4.0'
+# gem 'acts-as-taggable-on', '~> 4.0'
 # Singleton model
-gem 'acts_as_singleton'
+# gem 'acts_as_singleton'
 # Use Friendly ID for slugs
-gem 'friendly_id', '~> 5.1.0'
+gem 'friendly_id', '~> 5.2.4'
 # Browser detection
 gem 'browser'
 # Adobe Typekit
@@ -90,9 +91,10 @@ gem 'acts_as_list'
 # Mailchimp Mailer
 # gem 'gibbon'
 # gem 'mandrill-api'
-
 # SendGrid Mailer
-# gem 'smtpapi'
+# gem 'sendgrid-ruby'
+# Twilio SMS
+# gem 'twilio-ruby', '~> 5.18.0'
 
 # Image Placeholder
 # gem 'holder_rails'
