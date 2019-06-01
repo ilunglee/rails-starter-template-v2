@@ -3,6 +3,4 @@ Rails.application.routes.draw do
   # %w[404 401 500 503].each do |code|
   #   get code, to: 'errors#show', code: code
   # end
-
-  root 'home#index'
 end
