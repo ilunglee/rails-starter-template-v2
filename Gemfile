@@ -73,6 +73,10 @@ gem 'draper', '3.0.1'
 # Delayed Job
 gem 'delayed_job_active_record'
 
+# Uploader
+gem 'aws-sdk-s3', require: false
+gem 'image_processing', '~> 1.2'
+
 # Tagging
 # gem 'acts-as-taggable-on', '~> 4.0'
 # Singleton model

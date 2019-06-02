@@ -17,9 +17,6 @@ warn: true
 exclude:
   - ActiveRecord::InternalMetadata
   - ActiveRecord::SchemaMigration
-  - FriendlyId::Slug
-  - ActiveStorage::Attachment
-  - ActiveStorage::Blob
 only: null
 only_recursion_depth: null
 prepend_primary: true
