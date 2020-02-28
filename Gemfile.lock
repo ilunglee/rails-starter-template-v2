@@ -266,7 +266,7 @@ GEM
     popper_js (1.14.5)
     powerpack (0.1.1)
     public_suffix (3.0.2)
-    puma (3.11.4)
+    puma (3.12.3)
     rack (2.0.6)
     rack-contrib (2.0.1)
       rack (~> 2.0)
@@ -498,7 +498,7 @@ DEPENDENCIES
   memory_profiler
   meta_request
   pg (~> 0.18)
-  puma (~> 3.11.4)
+  puma (~> 3.12.3)
   rack-mini-profiler
   rails (~> 5.2.2)
   rails-controller-testing
